@@ -1,0 +1,110 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CastleTracker</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f5f5; margin:0 }
+    .container { max-width:800px; margin:20px auto; background:#fff; padding:20px; border-radius:8px }
+    .btn { padding:10px 20px; background:#4CAF50; color:#fff; border:none; border-radius:5px; cursor:pointer }
+    .btn:hover { background:#45a049 }
+    input[type=text] { width:70%; padding:8px; margin:5px 0; border:1px solid #ccc; border-radius:4px }
+    .progress-container { margin-top:20px }
+    .label { margin:5px 0 2px; font-weight:bold }
+    .bar-container { width:100%; background:#ddd; border-radius:20px; overflow:hidden }
+    .bar {
+      height:30px;
+      background:#4CAF50;
+      width:0%;
+      color:#fff;
+      text-align:center;
+      line-height:30px;
+      font-size:0.9em;
+      transition: width 0.5s ease;
+      white-space: nowrap;
+    }
+    .stats { margin-top:8px; font-size:0.9em; }
+    .tables { display:flex; gap:20px; margin-top:20px; }
+    .tables table { width:100%; border-collapse: collapse; }
+    .tables th, .tables td { padding:8px; border:1px solid #ccc; text-align:left; }
+    .tables th { background:#f0f0f0; }
+  </style>
+  <script>
+    function updateProgress() {
+      fetch('/progress')
+        .then(r => r.json())
+        .then(data => {
+          // barre globale
+          const bar = document.getElementById('overall-bar');
+          bar.style.width = data.percent + '%';
+          bar.innerText   = data.percent + '%';
+
+          // stats texte
+          document.getElementById('speed').innerText   = 'Vitesse : ' + data.speed;
+          document.getElementById('eta').innerText     = 'ETA : ' + data.eta;
+          document.getElementById('elapsed').innerText = 'Écoulé : ' + data.elapsed;
+
+          // tableau source
+          document.getElementById('remote-files').innerText     = data.remote_count;
+          document.getElementById('remote-bytes').innerText     = data.remote_total_bytes;
+          document.getElementById('remote-gb').innerText        = (data.remote_total_bytes/1e9).toFixed(2);
+
+          // tableau destination
+          document.getElementById('local-files').innerText      = data.local_count;
+          document.getElementById('local-bytes').innerText      = data.local_total_bytes;
+          document.getElementById('local-gb').innerText         = (data.local_total_bytes/1e9).toFixed(2);
+        });
+    }
+    setInterval(updateProgress, 1000);
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>🏰 CastleTracker</h1>
+
+    <form method="POST" action="/">
+      <input type="text" name="remote_path" value="{{ remote_path }}" placeholder="Répertoire distant" required><br>
+      <input type="text" name="local_path"  value="{{ local_path  }}" placeholder="Répertoire local"  required><br>
+      <button type="submit" class="btn">Enregistrer</button>
+    </form>
+
+    <form method="POST" action="/transfer">
+      <input type="hidden" name="remote_path" value="{{ remote_path }}">
+      <input type="hidden" name="local_path"  value="{{ local_path  }}">
+      <button type="submit" class="btn">🚀 Transférer</button>
+    </form>
+
+    <div class="progress-container">
+      <div class="label">Progression globale :</div>
+      <div class="bar-container"><div id="overall-bar" class="bar">0%</div></div>
+      <div class="stats">
+        <span id="speed">Vitesse : –</span> | 
+        <span id="eta">ETA : –</span> | 
+        <span id="elapsed">Écoulé : –</span>
+      </div>
+    </div>
+
+    <div class="tables">
+      <div>
+        <h3>Source (Remote)</h3>
+        <table>
+          <tr><th>Fichiers</th> <td id="remote-files">0</td></tr>
+          <tr><th>Taille (octets)</th> <td id="remote-bytes">0</td></tr>
+          <tr><th>Taille (Go)</th>     <td id="remote-gb">0.00</td></tr>
+        </table>
+      </div>
+      <div>
+        <h3>Destination (Local)</h3>
+        <table>
+          <tr><th>Fichiers</th> <td id="local-files">0</td></tr>
+          <tr><th>Taille (octets)</th> <td id="local-bytes">0</td></tr>
+          <tr><th>Taille (Go)</th>     <td id="local-gb">0.00</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
