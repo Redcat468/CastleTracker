@@ -1122,3 +1122,43 @@
 [2025-04-22 11:24:54] Transfer complete
 [2025-04-22 11:25:00] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass K30sLu-baJD497INUn3aj1W9DXNyF7zy-A
 [2025-04-22 11:25:01] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass K30sLu-baJD497INUn3aj1W9DXNyF7zy-A
+[2025-04-22 11:29:12] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass XLuGAz2vnP5z-l9m9LYdhXCNBkxEvYLiSQ
+[2025-04-22 11:29:13] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass XLuGAz2vnP5z-l9m9LYdhXCNBkxEvYLiSQ
+[2025-04-22 11:29:15] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass d5Q7WNZPylmjykWfoYsbW161uMQx4CYUhg
+[2025-04-22 11:29:16] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass d5Q7WNZPylmjykWfoYsbW161uMQx4CYUhg
+[2025-04-22 11:29:17] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass TFFo4RdubU3dN6sJef_3y0Zqz_BZ35uCsA C:/ZZ_TEST_FLX --stats 1s --log-level INFO --sftp-disable-hashcheck --sftp-set-modtime=false --multi-thread-streams=4 --multi-thread-cutoff=50M --transfers=8 --checkers=16 --buffer-size=64M --timeout=30s --contimeout=15s
+[2025-04-22 11:29:18] Transfer complete
+[2025-04-22 11:29:20] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass fq557CnM1mYHOhDKhcPPBabm0OnIBndNTw
+[2025-04-22 11:29:21] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass fq557CnM1mYHOhDKhcPPBabm0OnIBndNTw
+[2025-04-22 11:29:24] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass 8PaX7fBB7IAhB1RmdUu3chpskxyVVDxySQ
+[2025-04-22 11:29:25] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass 8PaX7fBB7IAhB1RmdUu3chpskxyVVDxySQ
+[2025-04-22 11:29:25] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass wtxeBabN1E6VUxPWvmwxTkXdOXbxV8dkrA
+[2025-04-22 11:29:26] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass wtxeBabN1E6VUxPWvmwxTkXdOXbxV8dkrA
+[2025-04-22 11:29:27] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass QatnOAtZpjaFYiOf3F8YklV31eEvXJ4fmQ
+[2025-04-22 11:29:27] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass 1fufiOBavM_ZIMHeiRLMOxTr8oF4xwNFoQ
+[2025-04-22 11:29:28] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass QatnOAtZpjaFYiOf3F8YklV31eEvXJ4fmQ
+[2025-04-22 11:29:28] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass 1fufiOBavM_ZIMHeiRLMOxTr8oF4xwNFoQ
+[2025-04-22 11:30:18] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass prkOMvvneSOiSaCJFSHkAoRF2fGhLv5ncQ
+[2025-04-22 11:30:19] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass prkOMvvneSOiSaCJFSHkAoRF2fGhLv5ncQ
+[2025-04-22 11:31:25] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass 5VFs9VGOkCnoi95Et3Or_KkeIMek_Y0SKA
+[2025-04-22 11:31:26] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass 5VFs9VGOkCnoi95Et3Or_KkeIMek_Y0SKA
+[2025-04-22 11:32:39] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass yt7jWYUmBFAdrIWUouBn29R_ja3w3uDO5g
+[2025-04-22 11:32:40] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass yt7jWYUmBFAdrIWUouBn29R_ja3w3uDO5g
+[2025-04-22 11:32:47] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass eQYbhn-JcNmCy7EJJXTI2gmWhZHm5greGQ
+[2025-04-22 11:32:48] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass eQYbhn-JcNmCy7EJJXTI2gmWhZHm5greGQ
+[2025-04-22 11:32:50] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass xgmLbYmyTJ_2xsP8lhENoTmlcCYFqt8ySA C:/ZZ_TEST_FLX --stats 1s --log-level INFO --sftp-disable-hashcheck --sftp-set-modtime=false --multi-thread-streams=4 --multi-thread-cutoff=50M --transfers=8 --checkers=16 --buffer-size=64M --timeout=30s --contimeout=15s
+[2025-04-22 11:32:54] Transfer complete
+[2025-04-22 11:34:06] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass Y2tTW76bC5mTDaHBS6Bt-3BR7-amqnoDHQ
+[2025-04-22 11:34:07] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass Y2tTW76bC5mTDaHBS6Bt-3BR7-amqnoDHQ
+[2025-04-22 11:34:10] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass WzST2P7sEVVyi-A_KVdG9T9SyQV4Ohmldg
+[2025-04-22 11:34:11] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass WzST2P7sEVVyi-A_KVdG9T9SyQV4Ohmldg
+[2025-04-22 11:34:13] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass 6-7NmFLCIqDG7yfkjBlw01Cvc6kfNte4VQ C:/ZZ_TEST_FLX --stats 1s --log-level INFO --sftp-disable-hashcheck --sftp-set-modtime=false --multi-thread-streams=4 --multi-thread-cutoff=50M --transfers=8 --checkers=16 --buffer-size=64M --timeout=30s --contimeout=15s
+[2025-04-22 11:34:23] Transfer complete
+[2025-04-22 11:34:29] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass Wag5Vz3Y9mi1Ox96p6HQO74nPuWJ2e_kXA
+[2025-04-22 11:34:30] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass Wag5Vz3Y9mi1Ox96p6HQO74nPuWJ2e_kXA
+[2025-04-22 11:39:26] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass Ga5k1ZSHrHLJ2DdHeGOd6eypu3gBmWJgGg
+[2025-04-22 11:39:27] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass Ga5k1ZSHrHLJ2DdHeGOd6eypu3gBmWJgGg
+[2025-04-22 11:41:45] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass Wzcix1JinLgjF4rSBb5uvrKa00WCe_SuLQ
+[2025-04-22 11:41:46] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass Wzcix1JinLgjF4rSBb5uvrKa00WCe_SuLQ
+[2025-04-22 11:42:52] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass 3qv9PUlU_DNaNee6G8WdhUHE_Yb8ZJJjYw
+[2025-04-22 11:42:53] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/HIBOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass 3qv9PUlU_DNaNee6G8WdhUHE_Yb8ZJJjYw

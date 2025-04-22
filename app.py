@@ -157,7 +157,7 @@ def reset_source():
     # Delete remote directory contents
     diff = TRANSFER_STATS['total_size'] - TRANSFER_STATS['local_total_bytes']
     rargs = build_rclone_args(REMOTE_PATH)
-    subprocess.run([RCLONE_EXE, 'delete', *rargs], capture_output=True)
+    subprocess.run([RCLONE_EXE, 'delete', '--rmdirs', *rargs], capture_output=True)
     # Reset stats
     for k in list(TRANSFER_STATS.keys()):
         TRANSFER_STATS[k] = 0 if isinstance(TRANSFER_STATS[k], (int,float)) else None
@@ -215,12 +215,7 @@ def new_transfer():
     elems.append(tf)
     doc.build(elems)
 
-    # Reset stats after PDF
-    for k in list(TRANSFER_STATS.keys()):
-        TRANSFER_STATS[k] = 0 if isinstance(TRANSFER_STATS[k], (int,float)) else None
-    TRANSFER_STATS.update({'files': [], 'eta': '', 'elapsed': '',
-                           'start_time': None, 'end_time': None})
-
+    # Do NOT reset stats after generating PDF
     return send_from_directory(REPORT_DIR, fn, as_attachment=True)
 
 @app.route('/reports/<filename>')
@@ -229,10 +224,10 @@ def download_report(filename):
 
 @app.route('/progress')
 def progress():
-    # Mise à jour dynamique des stats locales à chaque appel
-    local_count, local_bytes = get_local_stats(LOCAL_TARGET)
-    TRANSFER_STATS['local_count']       = local_count
-    TRANSFER_STATS['local_total_bytes'] = local_bytes
+    # Update local stats live
+    lc, lb = get_local_stats(LOCAL_TARGET)
+    TRANSFER_STATS['local_count']       = lc
+    TRANSFER_STATS['local_total_bytes'] = lb
     return jsonify({
         'percent':            TRANSFER_STATS['overall_pct'],
         'speed':              f"{TRANSFER_STATS['speed_bps']/1024**2:.2f} MiB/s",
