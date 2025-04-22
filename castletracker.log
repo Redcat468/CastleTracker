@@ -1009,3 +1009,21 @@
 [2025-04-21 20:16:35] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/CAILLOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass OtlO5dl2K3Wv-kJMEMV65ioL3MEsWZm6qQ C:/ZZ_TEST_FLX --stats 1s --log-level INFO
 [2025-04-21 20:16:49] Transfer complete
 [2025-04-21 20:20:13] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/RUSHES --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass 2l4IdHHKI-2oToSIj0uJEZRffCzu4l6uHw C:/ZZ_TEST_FLX --stats 1s --log-level INFO
+[2025-04-21 20:26:33] Transfer complete
+[2025-04-22 09:38:47] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/CAILLOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass Yd3v38DmmT7wsiWIDCSCptMS_30GAyEVag C:/ZZ_TEST_FLX --stats 1s --log-level INFO
+[2025-04-22 09:39:03] Transfer complete
+[2025-04-22 09:45:46] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/CAILLOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass ieW1dic_35433nvQUJN40fTA5CSaYXqepA C:/ZZ_TEST_FLX --stats 1s --log-level INFO
+[2025-04-22 09:45:57] Transfer complete
+[2025-04-22 09:54:31] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/CAILLOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass X_JY1wVtb2WbL8CTG-7xyOV6JSiuLsy5_Q C:/ZZ_TEST_FLX --stats 1s --log-level INFO
+[2025-04-22 09:54:49] Transfer complete
+[2025-04-22 09:57:01] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/RUSHES --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass vvj3zwxq826ND2VzSoAd5zJ--TNdAQoNTA C:/ZZ_TEST_FLX --stats 1s --log-level INFO
+[2025-04-22 09:57:54] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/CAILLOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass LWw9CWD6USLEGHbsSrlJqzY20uLSHgM4og C:/ZZ_TEST_FLX --stats 1s --log-level INFO
+[2025-04-22 09:58:12] Transfer complete
+[2025-04-22 10:00:29] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/CAILLOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass yFv8ElJ3nK5MzC0LBsViFm-11x3xowWU1g C:/ZZ_TEST_FLX --stats 1s --log-level INFO
+[2025-04-22 10:00:57] Transfer complete
+[2025-04-22 10:06:23] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/CAILLOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass bEhX_fsFPluFduO6TLvwBbVFpRPUumRb2A C:/ZZ_TEST_FLX --stats 1s --log-level INFO
+[2025-04-22 10:06:43] Transfer complete
+[2025-04-22 10:11:03] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/CAILLOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass _vpdwobmOKRvFZPevhsWOlfXvestYPUSyA C:/ZZ_TEST_FLX --stats 1s --log-level INFO
+[2025-04-22 10:11:05] Transfer complete
+[2025-04-22 10:14:39] CMD: C:\DEV\CastleTracker\rclone.exe copy :sftp:/C:/CAILLOU --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass MghtMymZ-7lmgYtjmbDv2C6MKeaZgvZ_TA C:/ZZ_TEST_FLX --stats 1s --log-level INFO
+[2025-04-22 10:14:40] Transfer complete
