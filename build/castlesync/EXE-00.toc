@@ -1,0 +1,944 @@
+('C:\\DEV\\CastleTracker\\dist\\castlesync.exe',
+ False,
+ False,
+ False,
+ ['C:\\DEV\\CastleTracker\\static\\images\\logo.ico'],
+ None,
+ False,
+ False,
+ b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<assembly xmlns='
+ b'"urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\n  <trustInfo x'
+ b'mlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <requested'
+ b'Privileges>\n        <requestedExecutionLevel level="asInvoker" uiAccess='
+ b'"false"/>\n      </requestedPrivileges>\n    </security>\n  </trustInfo>\n  '
+ b'<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">\n    <'
+ b'application>\n      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f'
+ b'0}"/>\n      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>\n '
+ b'     <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>\n      <s'
+ b'upportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>\n      <supporte'
+ b'dOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>\n    </application>\n  <'
+ b'/compatibility>\n  <application xmlns="urn:schemas-microsoft-com:asm.v3">'
+ b'\n    <windowsSettings>\n      <longPathAware xmlns="http://schemas.micros'
+ b'oft.com/SMI/2016/WindowsSettings">true</longPathAware>\n    </windowsSett'
+ b'ings>\n  </application>\n  <dependency>\n    <dependentAssembly>\n      <ass'
+ b'emblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version='
+ b'"6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" langua'
+ b'ge="*"/>\n    </dependentAssembly>\n  </dependency>\n</assembly>',
+ True,
+ False,
+ None,
+ None,
+ None,
+ 'C:\\DEV\\CastleTracker\\build\\castlesync\\castlesync.pkg',
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\DEV\\CastleTracker\\build\\castlesync\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\DEV\\CastleTracker\\build\\castlesync\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\DEV\\CastleTracker\\build\\castlesync\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\DEV\\CastleTracker\\build\\castlesync\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\DEV\\CastleTracker\\build\\castlesync\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\DEV\\CastleTracker\\build\\castlesync\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\fabt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\fabt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\fabt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\fabt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\fabt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_cryptography_openssl',
+   'C:\\Users\\fabt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_cryptography_openssl.py',
+   'PYSOURCE'),
+  ('app', 'C:\\DEV\\CastleTracker\\app.py', 'PYSOURCE'),
+  ('python313.dll',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp313-win_amd64.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_webp.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp313-win_amd64.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingtk.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmorph.cp313-win_amd64.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingmorph.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmath.cp313-win_amd64.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingmath.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingft.cp313-win_amd64.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingft.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp313-win_amd64.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingcms.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp313-win_amd64.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imaging.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('cryptography\\hazmat\\bindings\\_rust.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\_rust.pyd',
+   'EXTENSION'),
+  ('_cffi_backend.cp313-win_amd64.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_cffi_backend.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('markupsafe\\_speedups.cp313-win_amd64.pyd',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\markupsafe\\_speedups.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\python3.dll',
+   'BINARY'),
+  ('PIL\\BdfFontFile.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\BdfFontFile.py',
+   'DATA'),
+  ('PIL\\BlpImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'DATA'),
+  ('PIL\\BmpImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'DATA'),
+  ('PIL\\BufrStubImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'DATA'),
+  ('PIL\\ContainerIO.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ContainerIO.py',
+   'DATA'),
+  ('PIL\\CurImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'DATA'),
+  ('PIL\\DcxImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'DATA'),
+  ('PIL\\DdsImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'DATA'),
+  ('PIL\\EpsImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'DATA'),
+  ('PIL\\ExifTags.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ExifTags.py',
+   'DATA'),
+  ('PIL\\FitsImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'DATA'),
+  ('PIL\\FliImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'DATA'),
+  ('PIL\\FontFile.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\FontFile.py',
+   'DATA'),
+  ('PIL\\FpxImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'DATA'),
+  ('PIL\\FtexImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'DATA'),
+  ('PIL\\GbrImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'DATA'),
+  ('PIL\\GdImageFile.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\GdImageFile.py',
+   'DATA'),
+  ('PIL\\GifImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'DATA'),
+  ('PIL\\GimpGradientFile.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'DATA'),
+  ('PIL\\GimpPaletteFile.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'DATA'),
+  ('PIL\\GribStubImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'DATA'),
+  ('PIL\\Hdf5StubImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'DATA'),
+  ('PIL\\IcnsImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'DATA'),
+  ('PIL\\IcoImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'DATA'),
+  ('PIL\\ImImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'DATA'),
+  ('PIL\\Image.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\Image.py',
+   'DATA'),
+  ('PIL\\ImageChops.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageChops.py',
+   'DATA'),
+  ('PIL\\ImageCms.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageCms.py',
+   'DATA'),
+  ('PIL\\ImageColor.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageColor.py',
+   'DATA'),
+  ('PIL\\ImageDraw.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageDraw.py',
+   'DATA'),
+  ('PIL\\ImageDraw2.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageDraw2.py',
+   'DATA'),
+  ('PIL\\ImageEnhance.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageEnhance.py',
+   'DATA'),
+  ('PIL\\ImageFile.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageFile.py',
+   'DATA'),
+  ('PIL\\ImageFilter.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageFilter.py',
+   'DATA'),
+  ('PIL\\ImageFont.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageFont.py',
+   'DATA'),
+  ('PIL\\ImageGrab.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageGrab.py',
+   'DATA'),
+  ('PIL\\ImageMath.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageMath.py',
+   'DATA'),
+  ('PIL\\ImageMode.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageMode.py',
+   'DATA'),
+  ('PIL\\ImageMorph.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageMorph.py',
+   'DATA'),
+  ('PIL\\ImageOps.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageOps.py',
+   'DATA'),
+  ('PIL\\ImagePalette.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImagePalette.py',
+   'DATA'),
+  ('PIL\\ImagePath.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImagePath.py',
+   'DATA'),
+  ('PIL\\ImageQt.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageQt.py',
+   'DATA'),
+  ('PIL\\ImageSequence.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageSequence.py',
+   'DATA'),
+  ('PIL\\ImageShow.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageShow.py',
+   'DATA'),
+  ('PIL\\ImageStat.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageStat.py',
+   'DATA'),
+  ('PIL\\ImageTk.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageTk.py',
+   'DATA'),
+  ('PIL\\ImageTransform.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageTransform.py',
+   'DATA'),
+  ('PIL\\ImageWin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImageWin.py',
+   'DATA'),
+  ('PIL\\ImtImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'DATA'),
+  ('PIL\\IptcImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'DATA'),
+  ('PIL\\Jpeg2KImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'DATA'),
+  ('PIL\\JpegImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'DATA'),
+  ('PIL\\JpegPresets.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\JpegPresets.py',
+   'DATA'),
+  ('PIL\\McIdasImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'DATA'),
+  ('PIL\\MicImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'DATA'),
+  ('PIL\\MpegImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'DATA'),
+  ('PIL\\MpoImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'DATA'),
+  ('PIL\\MspImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'DATA'),
+  ('PIL\\PSDraw.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PSDraw.py',
+   'DATA'),
+  ('PIL\\PaletteFile.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PaletteFile.py',
+   'DATA'),
+  ('PIL\\PalmImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'DATA'),
+  ('PIL\\PcdImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'DATA'),
+  ('PIL\\PcfFontFile.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PcfFontFile.py',
+   'DATA'),
+  ('PIL\\PcxImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'DATA'),
+  ('PIL\\PdfImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'DATA'),
+  ('PIL\\PdfParser.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PdfParser.py',
+   'DATA'),
+  ('PIL\\PixarImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'DATA'),
+  ('PIL\\PngImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'DATA'),
+  ('PIL\\PpmImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'DATA'),
+  ('PIL\\PsdImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'DATA'),
+  ('PIL\\QoiImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\QoiImagePlugin.py',
+   'DATA'),
+  ('PIL\\SgiImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'DATA'),
+  ('PIL\\SpiderImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'DATA'),
+  ('PIL\\SunImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'DATA'),
+  ('PIL\\TarIO.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\TarIO.py',
+   'DATA'),
+  ('PIL\\TgaImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'DATA'),
+  ('PIL\\TiffImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'DATA'),
+  ('PIL\\TiffTags.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\TiffTags.py',
+   'DATA'),
+  ('PIL\\WalImageFile.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\WalImageFile.py',
+   'DATA'),
+  ('PIL\\WebPImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'DATA'),
+  ('PIL\\WmfImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'DATA'),
+  ('PIL\\XVThumbImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'DATA'),
+  ('PIL\\XbmImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'DATA'),
+  ('PIL\\XpmImagePlugin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'DATA'),
+  ('PIL\\__init__.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\__init__.py',
+   'DATA'),
+  ('PIL\\__main__.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\__main__.py',
+   'DATA'),
+  ('PIL\\_binary.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_binary.py',
+   'DATA'),
+  ('PIL\\_deprecate.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_deprecate.py',
+   'DATA'),
+  ('PIL\\_imaging.pyi',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imaging.pyi',
+   'DATA'),
+  ('PIL\\_imagingcms.pyi',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingcms.pyi',
+   'DATA'),
+  ('PIL\\_imagingft.pyi',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingft.pyi',
+   'DATA'),
+  ('PIL\\_imagingmath.pyi',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingmath.pyi',
+   'DATA'),
+  ('PIL\\_imagingmorph.pyi',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingmorph.pyi',
+   'DATA'),
+  ('PIL\\_imagingtk.pyi',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_imagingtk.pyi',
+   'DATA'),
+  ('PIL\\_tkinter_finder.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_tkinter_finder.py',
+   'DATA'),
+  ('PIL\\_typing.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_typing.py',
+   'DATA'),
+  ('PIL\\_util.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_util.py',
+   'DATA'),
+  ('PIL\\_version.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_version.py',
+   'DATA'),
+  ('PIL\\_webp.pyi',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\_webp.pyi',
+   'DATA'),
+  ('PIL\\features.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\features.py',
+   'DATA'),
+  ('PIL\\py.typed',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\py.typed',
+   'DATA'),
+  ('PIL\\report.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\report.py',
+   'DATA'),
+  ('pillow-11.0.0.dist-info\\INSTALLER',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pillow-11.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('pillow-11.0.0.dist-info\\LICENSE',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pillow-11.0.0.dist-info\\LICENSE',
+   'DATA'),
+  ('pillow-11.0.0.dist-info\\METADATA',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pillow-11.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('pillow-11.0.0.dist-info\\RECORD',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pillow-11.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('pillow-11.0.0.dist-info\\WHEEL',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pillow-11.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('pillow-11.0.0.dist-info\\top_level.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pillow-11.0.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('pillow-11.0.0.dist-info\\zip-safe',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pillow-11.0.0.dist-info\\zip-safe',
+   'DATA'),
+  ('pystray-0.19.5.dist-info\\COPYING',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray-0.19.5.dist-info\\COPYING',
+   'DATA'),
+  ('pystray-0.19.5.dist-info\\COPYING.LGPL',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray-0.19.5.dist-info\\COPYING.LGPL',
+   'DATA'),
+  ('pystray-0.19.5.dist-info\\INSTALLER',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray-0.19.5.dist-info\\INSTALLER',
+   'DATA'),
+  ('pystray-0.19.5.dist-info\\METADATA',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray-0.19.5.dist-info\\METADATA',
+   'DATA'),
+  ('pystray-0.19.5.dist-info\\RECORD',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray-0.19.5.dist-info\\RECORD',
+   'DATA'),
+  ('pystray-0.19.5.dist-info\\REQUESTED',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray-0.19.5.dist-info\\REQUESTED',
+   'DATA'),
+  ('pystray-0.19.5.dist-info\\WHEEL',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray-0.19.5.dist-info\\WHEEL',
+   'DATA'),
+  ('pystray-0.19.5.dist-info\\top_level.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray-0.19.5.dist-info\\top_level.txt',
+   'DATA'),
+  ('pystray-0.19.5.dist-info\\zip-safe',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray-0.19.5.dist-info\\zip-safe',
+   'DATA'),
+  ('pystray\\__init__.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\__init__.py',
+   'DATA'),
+  ('pystray\\_appindicator.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_appindicator.py',
+   'DATA'),
+  ('pystray\\_base.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_base.py',
+   'DATA'),
+  ('pystray\\_darwin.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_darwin.py',
+   'DATA'),
+  ('pystray\\_dummy.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_dummy.py',
+   'DATA'),
+  ('pystray\\_gtk.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_gtk.py',
+   'DATA'),
+  ('pystray\\_info.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_info.py',
+   'DATA'),
+  ('pystray\\_util\\__init__.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_util\\__init__.py',
+   'DATA'),
+  ('pystray\\_util\\gtk.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_util\\gtk.py',
+   'DATA'),
+  ('pystray\\_util\\notify_dbus.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_util\\notify_dbus.py',
+   'DATA'),
+  ('pystray\\_util\\win32.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_util\\win32.py',
+   'DATA'),
+  ('pystray\\_win32.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_win32.py',
+   'DATA'),
+  ('pystray\\_xorg.py',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pystray\\_xorg.py',
+   'DATA'),
+  ('static\\images\\banner.svg',
+   'C:\\DEV\\CastleTracker\\static\\images\\banner.svg',
+   'DATA'),
+  ('static\\images\\logo.ico',
+   'C:\\DEV\\CastleTracker\\static\\images\\logo.ico',
+   'DATA'),
+  ('static\\images\\logo.svg',
+   'C:\\DEV\\CastleTracker\\static\\images\\logo.svg',
+   'DATA'),
+  ('templates\\index.html',
+   'C:\\DEV\\CastleTracker\\templates\\index.html',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\DEV\\CastleTracker\\build\\castlesync\\base_library.zip',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('cryptography-44.0.2.dist-info\\RECORD',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\cryptography-44.0.2.dist-info\\RECORD',
+   'DATA'),
+  ('cryptography-44.0.2.dist-info\\licenses\\LICENSE.APACHE',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\cryptography-44.0.2.dist-info\\licenses\\LICENSE.APACHE',
+   'DATA'),
+  ('cryptography-44.0.2.dist-info\\WHEEL',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\cryptography-44.0.2.dist-info\\WHEEL',
+   'DATA'),
+  ('cryptography-44.0.2.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\cryptography-44.0.2.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('cryptography-44.0.2.dist-info\\INSTALLER',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\cryptography-44.0.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('cryptography-44.0.2.dist-info\\METADATA',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\cryptography-44.0.2.dist-info\\METADATA',
+   'DATA'),
+  ('cryptography-44.0.2.dist-info\\licenses\\LICENSE.BSD',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\cryptography-44.0.2.dist-info\\licenses\\LICENSE.BSD',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\LICENSE.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('flask-3.1.0.dist-info\\REQUESTED',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask-3.1.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\LICENSE.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info\\LICENSE.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\WHEEL',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\WHEEL',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info\\WHEEL',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\REQUESTED',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('flask-3.1.0.dist-info\\entry_points.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask-3.1.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\top_level.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\top_level.txt',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\RECORD',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\RECORD',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\RECORD',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\METADATA',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\METADATA',
+   'DATA'),
+  ('flask-3.1.0.dist-info\\LICENSE.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask-3.1.0.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\WHEEL',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\WHEEL',
+   'DATA'),
+  ('flask-3.1.0.dist-info\\WHEEL',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask-3.1.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\entry_points.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('flask-3.1.0.dist-info\\INSTALLER',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask-3.1.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\METADATA',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\METADATA',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\LICENSE.txt',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info\\INSTALLER',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info\\METADATA',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\METADATA',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\WHEEL',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\WHEEL',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info\\RECORD',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\RECORD',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\RECORD',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\INSTALLER',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\INSTALLER',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\METADATA',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\METADATA',
+   'DATA'),
+  ('flask-3.1.0.dist-info\\RECORD',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask-3.1.0.dist-info\\RECORD',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info\\INSTALLER',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\itsdangerous-2.2.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('flask-3.1.0.dist-info\\METADATA',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask-3.1.0.dist-info\\METADATA',
+   'DATA')],
+ [],
+ False,
+ False,
+ 1745330338,
+ [('runw.exe',
+   'C:\\Users\\Félix '
+   'Abt\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
+   'EXECUTABLE')],
+ 'C:\\Users\\Félix '
+ 'Abt\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll')
