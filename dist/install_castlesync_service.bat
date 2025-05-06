@@ -80,7 +80,6 @@ echo 🔧 Configuration du service...
 "%NSSM_PATH%" set %SERVICE_NAME% Start SERVICE_AUTO_START
 "%NSSM_PATH%" set %SERVICE_NAME% AppDirectory "%INSTALL_DIR%"
 "%NSSM_PATH%" set %SERVICE_NAME% AppStdout "%INSTALL_DIR%\castlesync.log"
-"%NSSM_PATH%" set %SERVICE_NAME% AppStderr "%INSTALL_DIR%\castlesync_error.log"
 "%NSSM_PATH%" set %SERVICE_NAME% AppStopMethodSkip 0
 
 REM Démarrer le service
