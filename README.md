@@ -1,4 +1,4 @@
-# CastleTracker / CastleSync
+# CastleSync
 
 **Synchronisation SFTP de dossiers à la volée via Flask et Rclone**
 
@@ -13,7 +13,7 @@
 ## Prérequis
 
 * **Python** 3.6+
-* **Rclone** installé et disponible dans le PATH
+* **Rclone** installé et disponible dans le dossier du script
 * Bibliothèques Python (installables via pip) :
 
   * Flask
