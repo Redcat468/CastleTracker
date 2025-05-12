@@ -1,5 +1,10 @@
 # CastleSync
 
+
+![CastleSync interface]([/assets/img/MarineGEO_logo.png "MarineGEO logo"](https://i.ibb.co/fdpWz3Dv/Capture-d-cran-2025-05-12-194328.png))
+
+
+
 **Synchronisation SFTP de dossiers à la volée via Flask et Rclone**
 
 ## Fonctionnalités
