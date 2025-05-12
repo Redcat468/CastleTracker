@@ -9,7 +9,6 @@
 * Affichage des statistiques de transfert : pourcentage, vitesse, ETA, nombre et taille des fichiers
 * Vérification automatique de la connexion SFTP et récupération de l'adresse IP WAN du serveur
 * Journalisation des opérations dans `castletracker.log`
-* (Optionnel) Génération de rapports PDF dans le dossier `reports/` grâce à ReportLab
 
 ## Prérequis
 
@@ -34,12 +33,7 @@
    ```bash
    cp settings.conf settings.conf.local  # ou renommez selon vos habitudes
    ```
-3. Installez les dépendances Python :
-
-   ```bash
-   pip install flask reportlab
-   ```
-4. Assurez-vous que `rclone` est accessible et configuré sur votre machine.
+3. Assurez-vous que `rclone` est accessible et configuré sur votre machine.
 
 ## Configuration
 
