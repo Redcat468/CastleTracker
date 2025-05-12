@@ -66,3 +66,14 @@
 [2025-04-22 16:07:54] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/RUSHES --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass oKzR6rGNsYrW9GDFFexCrvcb7S60LXV9CQ
 [2025-04-22 16:07:56] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/RUSHES --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass sN8v1IT1n8f2aC0pCaavZYT7bmhe8LBMyQ
 [2025-04-22 16:07:57] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/RUSHES --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass sN8v1IT1n8f2aC0pCaavZYT7bmhe8LBMyQ
+[2025-05-09 18:46:53] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/RUSHES --sftp-host 82.64.138.216 --sftp-user transfert --sftp-port 3968 --sftp-pass forXvnM_gEvaozML45nqyf4H_cNSbU26Wg
+[2025-05-09 18:47:37] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/CASTLESYNC --sftp-host 90.48.179.9 --sftp-user montage --sftp-port 3968 --sftp-pass vsYdW61vZRW9uvT8mmKaMtVvrIQGg_7YkN4HPfc4RYG6
+[2025-05-09 18:47:40] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/CASTLESYNC --sftp-host 90.48.179.9 --sftp-user montage --sftp-port 3968 --sftp-pass vsYdW61vZRW9uvT8mmKaMtVvrIQGg_7YkN4HPfc4RYG6
+[2025-05-09 18:47:41] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/CASTLESYNC --sftp-host 90.48.179.9 --sftp-user montage --sftp-port 3968 --sftp-pass ECX84X0TK736H60vYqUEva41esh9qwuEMwkuuqpsYQp5
+[2025-05-09 18:47:44] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/CASTLESYNC --sftp-host 90.48.179.9 --sftp-user montage --sftp-port 3968 --sftp-pass ECX84X0TK736H60vYqUEva41esh9qwuEMwkuuqpsYQp5
+[2025-05-09 18:47:49] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/CASTLESYNC --sftp-host 90.48.179.9 --sftp-user montage --sftp-port 3968 --sftp-pass u4hTOE8NJDrK-3gwM_02G_NUUCrBw_8OB_t2muRABQTF
+[2025-05-09 18:47:52] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/CASTLESYNC --sftp-host 90.48.179.9 --sftp-user montage --sftp-port 3968 --sftp-pass u4hTOE8NJDrK-3gwM_02G_NUUCrBw_8OB_t2muRABQTF
+[2025-05-09 18:49:24] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/CASTLESYNC --sftp-host 90.48.179.9 --sftp-user montage --sftp-port 3968 --sftp-pass Mj0usRxbiJV_PfK7XKoEahyj3fHLoh12Ly5iQZ6N1vlu
+[2025-05-09 18:49:27] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/CASTLESYNC --sftp-host 90.48.179.9 --sftp-user montage --sftp-port 3968 --sftp-pass Mj0usRxbiJV_PfK7XKoEahyj3fHLoh12Ly5iQZ6N1vlu
+[2025-05-12 11:09:05] CMD: C:\DEV\CastleTracker\rclone.exe size --json :sftp:/C:/CASTLESYNC --sftp-host 90.48.179.9 --sftp-user montage --sftp-port 3968 --sftp-pass yHnacSDfInr-zTgTFdAWzJ5xQ3wd5PsIBvSNCBSsIvkb
+[2025-05-12 11:09:10] CMD: C:\DEV\CastleTracker\rclone.exe lsjson --recursive :sftp:/C:/CASTLESYNC --sftp-host 90.48.179.9 --sftp-user montage --sftp-port 3968 --sftp-pass yHnacSDfInr-zTgTFdAWzJ5xQ3wd5PsIBvSNCBSsIvkb

@@ -11,6 +11,8 @@ from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
 from flask import redirect, url_for
+import urllib.request
+import socket 
 
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -43,6 +45,7 @@ REMOTE_PATH  = DEFAULT_REMOTE
 CREATE_NO_WINDOW = subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
 
 # Global process handle for stopping transfer
+# Global process handle for stopping transfer
 TRANSFER_PROC = None
 
 # Shared state
@@ -60,7 +63,11 @@ TRANSFER_STATS = {
     'elapsed': '',
     'start_time': None,
     'end_time': None,
+    'wan_ip': '',
+    'sftp_status': '',
+    'sftp_timestamp': ''
 }
+
 
 # Regex for parsing rclone copy output
 GLOBAL_RE = re.compile(
@@ -134,7 +141,7 @@ def scan():
         TRANSFER_STATS['total_size']   = js.get('bytes', 0)
         TRANSFER_STATS['remote_count'] = js.get('count', 0)
     except Exception:
-        TRANSFER_STATS['total_size'] = 0
+        TRANSFER_STATS['total_size']   = 0
         TRANSFER_STATS['remote_count'] = 0
 
     # Local totals via os.walk
@@ -151,11 +158,32 @@ def scan():
     )
     try:
         files = json.loads(lr.stdout)
-        TRANSFER_STATS['files'] = [{'Path': f['Path'], 'Size': f.get('Size',0)} for f in files]
+        TRANSFER_STATS['files'] = [{'Path': f['Path'], 'Size': f.get('Size', 0)} for f in files]
     except Exception:
         TRANSFER_STATS['files'] = []
 
+    # Résolution de l'IP publique du serveur distant
+    try:
+        TRANSFER_STATS['wan_ip'] = socket.gethostbyname(REMOTE_HOST)
+    except Exception:
+        TRANSFER_STATS['wan_ip'] = 'Erreur'
+
+    # Test SFTP connectivity
+    try:
+        test_cmd = [RCLONE_EXE, 'ls', *rargs]
+        test_sr = subprocess.run(
+            test_cmd, capture_output=True, text=True,
+            creationflags=CREATE_NO_WINDOW, timeout=10
+        )
+        TRANSFER_STATS['sftp_status'] = 'active' if test_sr.returncode == 0 else 'inactive'
+    except Exception:
+        TRANSFER_STATS['sftp_status'] = 'erreur'
+
+    # Horodatage
+    TRANSFER_STATS['sftp_timestamp'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
     return ('', 204)
+
 
 @app.route('/transfer', methods=['POST'])
 def transfer():
@@ -205,6 +233,7 @@ def progress():
     lc, lb = get_local_stats(LOCAL_TARGET)
     TRANSFER_STATS['local_count']       = lc
     TRANSFER_STATS['local_total_bytes'] = lb
+
     return jsonify({
         'status':             TRANSFER_STATS['status'],
         'percent':            TRANSFER_STATS['overall_pct'],
@@ -215,7 +244,11 @@ def progress():
         'remote_total_bytes': TRANSFER_STATS['total_size'],
         'local_count':        TRANSFER_STATS['local_count'],
         'local_total_bytes':  TRANSFER_STATS['local_total_bytes'],
+        'wan_ip':             TRANSFER_STATS.get('wan_ip', ''),
+        'sftp_status':        TRANSFER_STATS.get('sftp_status', ''),
+        'sftp_timestamp':     TRANSFER_STATS.get('sftp_timestamp', '')
     })
+
 
 def rclone_thread():
     global TRANSFER_PROC

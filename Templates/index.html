@@ -29,36 +29,168 @@
     .tables th { background:#4CAF50; color:#fff; position:sticky; top:0; z-index:1; cursor:pointer; }
     .tables th:hover { background:#45a049; }
     .tables tr:hover td { background:#f1f1f1; }
-  </style>
-  <script>
-    function updateProgress(){
-      fetch('/progress').then(r=>r.json()).then(d=>{
-        document.getElementById('overall-bar').style.width = d.percent + '%';
-        document.getElementById('overall-bar').innerText = d.percent + '%';
-        document.getElementById('speed').innerText   = 'Vitesse : ' + d.speed;
-        document.getElementById('eta').innerText     = 'ETA : ' + d.eta;
-        document.getElementById('elapsed').innerText = 'Écoulé : ' + d.elapsed;
-        document.getElementById('remote-files').innerText   = d.remote_count;
-        document.getElementById('remote-bytes').innerText   = d.remote_total_bytes;
-        document.getElementById('remote-gb').innerText      = (d.remote_total_bytes/1e9).toFixed(2);
-        document.getElementById('local-files').innerText    = d.local_count;
-        document.getElementById('local-bytes').innerText    = d.local_total_bytes;
-        document.getElementById('local-gb').innerText       = (d.local_total_bytes/1e9).toFixed(2);
-      });
+    .banner {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #e0e0e0;
+      border-top: 1px solid #ccc;
+      font-size: 0.9em;
+      text-align: center;
     }
-    document.addEventListener('DOMContentLoaded', () => {
-      document.getElementById('scan-btn').addEventListener('click', () => fetch('/scan',{method:'POST'}));
-      document.getElementById('transfer-btn').addEventListener('click', () => fetch('/transfer',{method:'POST'}));
-      document.getElementById('reset-btn').addEventListener('click', () => {
-        fetch('/progress').then(r=>r.json()).then(d=>{
-          const diff=d.remote_total_bytes-d.local_total_bytes;
-          if(confirm(`Supprimer le dossier source ?\nDifférence: ${diff} octets`)){
-            fetch('/resetsource',{method:'POST'}).then(()=>alert('Dossier source vidé'));}
-        });
-      });
-      updateProgress(); setInterval(updateProgress,1000);
+    .banner p {
+      margin: 5px;
+    }
+    footer {
+      background: #2c3e50;
+      color: #ecf0f1;
+      text-align: center;
+      padding: 20px 10px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+      position: relative;
+      padding-bottom: 2px;
+      transition: color 0.3s, border-bottom 0.3s;
+    }
+
+    footer a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      background: transparent;
+      transition: background 0.3s;
+    }
+
+    footer a:hover {
+      color: #ffffff;
+    }
+
+    footer a:hover::after {
+      background: #ffffff;
+    }
+
+    footer span {
+      display: inline-flex;
+      align-items: center;
+      margin-top: 8px;
+    }
+
+    footer span img {
+      width: 22px;
+      height: 22px;
+      margin: 0 4px;
+      filter: brightness(0) invert(1);
+    }
+
+    /* Responsive : réduire la taille du texte sur petits écrans */
+    @media (max-width: 600px) {
+      footer {
+        font-size: 0.8rem;
+        padding: 15px 5px;
+      }
+      footer span img {
+        width: 18px;
+        height: 18px;
+        margin: 0 2px;
+      }
+    }
+
+        /* 1. Structure flex pour que le contenu prenne tout l'espace disponible */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* 2. La partie principale (logo + container) prend tout l'espace restant */
+    .logo-container,
+    .container {
+      flex-shrink: 0;
+    }
+    .container {
+      flex: 1;
+      overflow: auto; /* permet au contenu de défiler si besoin */
+    }
+
+    /* 3. Footer toujours en bas */
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      /* conservez vos styles existants ci-dessous */
+      background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
+      color: #ecf0f1;
+      text-align: center;
+      padding: 20px 10px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.9rem;
+      border-top: 2px solid rgba(255,255,255,0.2);
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      z-index: 1000;
+    }
+
+    /* 4. Ajout d’un padding en bas du body pour que le contenu ne soit pas caché sous le footer */
+    body {
+      padding-bottom: 80px; /* ajustez si votre footer est plus ou moins haut */
+    }
+
+
+  </style>
+<script>
+  function updateProgress(){
+    fetch('/progress').then(r=>r.json()).then(d=>{
+      document.getElementById('overall-bar').style.width = d.percent + '%';
+      document.getElementById('overall-bar').innerText = d.percent + '%';
+      document.getElementById('speed').innerText   = 'Vitesse : ' + d.speed;
+      document.getElementById('eta').innerText     = 'ETA : ' + d.eta;
+      document.getElementById('elapsed').innerText = 'Écoulé : ' + d.elapsed;
+      document.getElementById('remote-files').innerText = d.remote_count;
+      document.getElementById('remote-bytes').innerText = d.remote_total_bytes;
+      document.getElementById('remote-gb').innerText    = (d.remote_total_bytes/1e9).toFixed(2);
+      document.getElementById('local-files').innerText  = d.local_count;
+      document.getElementById('local-bytes').innerText  = d.local_total_bytes;
+      document.getElementById('local-gb').innerText     = (d.local_total_bytes/1e9).toFixed(2);
+
+      // Mise à jour du bandeau
+      document.getElementById('wan-ip').innerText         = d.wan_ip || '–';
+      document.getElementById('sftp-status').innerText    = d.sftp_status || '–';
+      document.getElementById('sftp-timestamp').innerText = d.sftp_timestamp
+        ? '(' + d.sftp_timestamp + ')' : '(–)';
     });
-  </script>
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('scan-btn').addEventListener('click', () => fetch('/scan',{method:'POST'}));
+    document.getElementById('transfer-btn').addEventListener('click', () => fetch('/transfer',{method:'POST'}));
+    document.getElementById('reset-btn').addEventListener('click', () => {
+      fetch('/progress').then(r=>r.json()).then(d=>{
+        const diff = d.remote_total_bytes - d.local_total_bytes;
+        if(confirm(`Supprimer le dossier source ?\nDifférence : ${diff} octets`)){
+          fetch('/resetsource',{method:'POST'}).then(()=>alert('Dossier source vidé'));
+        }
+      });
+    });
+    updateProgress();
+    setInterval(updateProgress, 1000);
+  });
+</script>
 </head>
 <body>
   <div class="logo-container">
@@ -96,6 +228,31 @@
         </table>
       </div>
     </div>
+    <div class="banner">
+      <p>IP WAN du serveur distant : <span id="wan-ip">{{ stats.wan_ip or '–' }}</span></p>
+      <p>Connexion SFTP : <span id="sftp-status">{{ stats.sftp_status or '–' }}</span>
+         <span id="sftp-timestamp">({{ stats.sftp_timestamp or '–' }})</span></p>
+    </div>
+    
   </div>
+  <!-- Footer avec licence et crédits -->
+<footer class="bg-gray-800 text-white text-center justify-between p-4">
+  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+    <a property="dct:title" rel="cc:attributionURL" href="https://github.com/YourUser/CastleTracker">
+      CastleTracker v1.0
+    </a> 
+    by 
+    <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Redcat468">
+      Félix Abt – Cairn Studios
+    </a> 
+    is licensed under 
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+      CC BY-NC-SA 4.0
+    </a>
+    </span>
+  </p>
+</footer>
+
 </body>
+
 </html>
