@@ -9,16 +9,13 @@
 * Synchronisation unidirectionnelle (copie) des fichiers distants vers le répertoire local
 * Affichage des statistiques de transfert : pourcentage, vitesse, ETA, nombre et taille des fichiers
 * Vérification automatique de la connexion SFTP et récupération de l'adresse IP WAN du serveur
-* Journalisation des opérations dans `castletracker.log`
 
 ## Prérequis
 
 * **Python** 3.6+
 * **Rclone** installé et disponible dans le dossier du script
 * Bibliothèques Python (installables via pip) :
-
   * Flask
-  * reportlab
 * Accès à un serveur SFTP pour la source distante
 
 ## Installation
@@ -77,27 +74,7 @@ default_path = /chemin/local         # Chemin du dossier de destination local
   - **⏹ Stop** : interrompt le transfert en cours  
   - **🔄 Reset Source** : vide le répertoire source distant après confirmation  
 
-## Structure du projet
-
 ```
-
-├── app.py             # Serveur Flask et logique de synchronisation
-├── settings.conf      # Fichier de configuration SFTP et chemins
-├── build.bat          # Script de démarrage sous Windows
-├── reports/           # Répertoire pour les rapports PDF générés
-├── static/            # Contenus statiques (images, CSS)
-├── templates/         # Templates HTML (index.html)
-└── castletracker.log  # Journal des opérations
-
-```
-
-## Contribution
-
-Les contributions sont les bienvenues !  
-1. Forkez le dépôt  
-2. Créez une branche : `git checkout -b feature/ma-fonctionnalite`  
-3. Partagez vos modifications via une Pull Request  
-
 ## Licence
 
 Ce projet est sous licence **CC BY-NC-SA 4.0**  
